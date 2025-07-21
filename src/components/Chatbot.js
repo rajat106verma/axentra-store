@@ -15,7 +15,7 @@ export default function Chatbot() {
         },
         {
           headers: {
-            Authorization: 'Bearer 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',
+            Authorization:`Bearer ${process.env.REACT_APP_OPENAI_API_KEY}`,
           },
         }
       );
